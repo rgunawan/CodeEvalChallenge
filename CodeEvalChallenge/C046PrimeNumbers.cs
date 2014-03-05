@@ -22,28 +22,59 @@ namespace CodeEvalChallenge
             {
                 var output = GetPrimes(uint.Parse(line));
 
-                if (!string.IsNullOrWhiteSpace(output))
+                if (output.Count > 0)
                 {
-                    Console.WriteLine(output);
+                    Console.WriteLine(String.Join(",", output));
                 }
             }
         }
 
-        private static string GetPrimes(uint seed)
+        private static IList<uint> GetPrimes(uint seed)
         {
-            string output = string.Empty;
-            bool first = true;
-            for (uint i = 2; i < seed; i++)
+            var output = new List<uint>();           
+
+            var lastKnown = GettKnownPrimes(seed);
+
+            uint start;
+            if (lastKnown.Count > 0)
+            {
+                output.AddRange(lastKnown);
+                start = lastKnown.Last() + 1;
+            }
+            else
+            {
+                start = 2;
+            }
+
+            for (uint i = start; i < seed; i++)
             {
                 if (IsPrime(i))
                 {
-                    if (first)
-                    {
-                        first = false;
-                        output = i + string.Empty;
-                    }
-                    else
-                    { output += "," + i; }
+                    LastKnownPrimes.Add(i);
+                    output.Add(i);
+                }
+            }
+
+            return output;
+        }
+
+        private static IList<uint> LastKnownPrimes = new List<uint>();
+
+        static IList<uint> GettKnownPrimes(uint seed)
+        {
+            var output = new List<uint>();
+            if (LastKnownPrimes.Count == 0)
+                return output;
+
+            for (int i = 0; i < LastKnownPrimes.Count; i++)
+            {
+                if (LastKnownPrimes[i] < seed)
+                {
+                    output.Add(LastKnownPrimes[i]);
+                }
+                else
+                {
+                    break;
                 }
             }
 
@@ -52,13 +83,18 @@ namespace CodeEvalChallenge
 
         private static bool IsPrime(uint i)
         {
-            for (uint j = 2; j < i; j++)
+            for (int j = 0; j < LastKnownPrimes.Count; j++)
             {
-                if (i % j == 0)
-                {
+                if (i % LastKnownPrimes[j] == 0)
                     return false;
-                }
             }
+//            for (uint j = 2; j < i; j++)
+//            {
+//                if (i % j == 0)
+//                {
+//                    return false;
+//                }
+//            }
 
             return true;
         }
