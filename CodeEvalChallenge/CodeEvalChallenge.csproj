@@ -53,6 +53,7 @@
     <Compile Include="C002LongestLines.cs" />
     <Compile Include="C014StringPermutations.cs" />
     <Compile Include="C007PrefixExpressions.cs" />
+    <Compile Include="C009StackImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -63,6 +64,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Inputs\C007PrefixExpressionsInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Inputs\C009StackImplementationInputs.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
