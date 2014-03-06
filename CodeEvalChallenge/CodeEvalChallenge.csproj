@@ -52,6 +52,7 @@
     <Compile Include="C004SumFirst1000PrimeNumbers.cs" />
     <Compile Include="C002LongestLines.cs" />
     <Compile Include="C014StringPermutations.cs" />
+    <Compile Include="C007PrefixExpressions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -59,6 +60,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Inputs\C014StringPermutationsInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Inputs\C007PrefixExpressionsInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
