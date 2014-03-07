@@ -1,0 +1,13 @@
+﻿Hello,ell
+This is good, is
+CodeEval,C*Eval
+Old,Young
+CodeEval,C\*Eval
+C*ode,C\*ode
+C\ode,\
+Code,*de
+CodCode,C*e
+Coda,C*a
+Codaae,C*ae
+Codaae,C*d*f
+Codaae,C*d*e
