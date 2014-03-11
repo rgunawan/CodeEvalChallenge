@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432255A818CE24E1009ECB13 /* C036MessageDecoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */; };
 		4370435618CAA95B0031DB2E /* C003PrimePalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */; };
 		4370435818CAB7760031DB2E /* C008ReverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4370435718CAB7760031DB2E /* C008ReverseWords.cpp */; };
 		43CD213118CA60D6000C9412 /* C001FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43CD213018CA60D6000C9412 /* C001FizzBuzz.cpp */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C036MessageDecoding.cpp; sourceTree = "<group>"; };
 		4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C003PrimePalindrome.cpp; sourceTree = "<group>"; };
 		4370435718CAB7760031DB2E /* C008ReverseWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C008ReverseWords.cpp; sourceTree = "<group>"; };
 		43CD212D18CA60D6000C9412 /* CodeEvalChallengeCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeEvalChallengeCpp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				4370435718CAB7760031DB2E /* C008ReverseWords.cpp */,
 				43CD213218CA60D6000C9412 /* CodeEvalChallengeCpp.1 */,
 				4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */,
+				432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */,
 			);
 			path = CodeEvalChallengeCpp;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				4370435618CAA95B0031DB2E /* C003PrimePalindrome.cpp in Sources */,
 				43CD213118CA60D6000C9412 /* C001FizzBuzz.cpp in Sources */,
+				432255A818CE24E1009ECB13 /* C036MessageDecoding.cpp in Sources */,
 				4370435818CAB7760031DB2E /* C008ReverseWords.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
