@@ -29,12 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C036MessageDecoding.cpp; sourceTree = "<group>"; };
-		4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C003PrimePalindrome.cpp; sourceTree = "<group>"; };
-		4370435718CAB7760031DB2E /* C008ReverseWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C008ReverseWords.cpp; sourceTree = "<group>"; };
-		43B388ED18CF98D800D98D27 /* C038StringList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C038StringList.cpp; sourceTree = "<group>"; };
+		432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C036MessageDecoding.cpp; sourceTree = "<group>"; };
+		4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C003PrimePalindrome.cpp; sourceTree = "<group>"; };
+		4370435718CAB7760031DB2E /* C008ReverseWords.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C008ReverseWords.cpp; sourceTree = "<group>"; };
+		43B388ED18CF98D800D98D27 /* C038StringList.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C038StringList.cpp; sourceTree = "<group>"; };
 		43CD212D18CA60D6000C9412 /* CodeEvalChallengeCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeEvalChallengeCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CD213018CA60D6000C9412 /* C001FizzBuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C001FizzBuzz.cpp; sourceTree = "<group>"; };
+		43CD213018CA60D6000C9412 /* C001FizzBuzz.cpp */ = {isa = PBXFileReference; explicitFileType = text; path = C001FizzBuzz.cpp; sourceTree = "<group>"; };
 		43CD213218CA60D6000C9412 /* CodeEvalChallengeCpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CodeEvalChallengeCpp.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
