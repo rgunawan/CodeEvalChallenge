@@ -10,6 +10,7 @@
 		432255A818CE24E1009ECB13 /* C036MessageDecoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */; };
 		4370435618CAA95B0031DB2E /* C003PrimePalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */; };
 		4370435818CAB7760031DB2E /* C008ReverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4370435718CAB7760031DB2E /* C008ReverseWords.cpp */; };
+		43856AE318D88B1D00DEDFB3 /* C078Sudoku.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 432B633518D888DB00E60FF5 /* C078Sudoku.cpp */; };
 		43B388EE18CF98D800D98D27 /* C038StringList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43B388ED18CF98D800D98D27 /* C038StringList.cpp */; };
 		43BBABD018D0BE5A007C625B /* C044FollowingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43BBABCF18D0BE5A007C625B /* C044FollowingInteger.cpp */; };
 		43CD213118CA60D6000C9412 /* C001FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43CD213018CA60D6000C9412 /* C001FizzBuzz.cpp */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C036MessageDecoding.cpp; sourceTree = "<group>"; };
+		432B633518D888DB00E60FF5 /* C078Sudoku.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C078Sudoku.cpp; sourceTree = "<group>"; };
 		4370435518CAA95B0031DB2E /* C003PrimePalindrome.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C003PrimePalindrome.cpp; sourceTree = "<group>"; };
 		4370435718CAB7760031DB2E /* C008ReverseWords.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C008ReverseWords.cpp; sourceTree = "<group>"; };
 		43B388ED18CF98D800D98D27 /* C038StringList.cpp */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = C038StringList.cpp; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				432255A618CE24E1009ECB13 /* C036MessageDecoding.cpp */,
 				43B388ED18CF98D800D98D27 /* C038StringList.cpp */,
 				43BBABCF18D0BE5A007C625B /* C044FollowingInteger.cpp */,
+				432B633518D888DB00E60FF5 /* C078Sudoku.cpp */,
 			);
 			path = CodeEvalChallengeCpp;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			files = (
 				4370435618CAA95B0031DB2E /* C003PrimePalindrome.cpp in Sources */,
 				43CD213118CA60D6000C9412 /* C001FizzBuzz.cpp in Sources */,
+				43856AE318D88B1D00DEDFB3 /* C078Sudoku.cpp in Sources */,
 				432255A818CE24E1009ECB13 /* C036MessageDecoding.cpp in Sources */,
 				43BBABD018D0BE5A007C625B /* C044FollowingInteger.cpp in Sources */,
 				4370435818CAB7760031DB2E /* C008ReverseWords.cpp in Sources */,
